@@ -1,0 +1,121 @@
+/* General container styling */
+.container {
+  padding: 16px;
+  border: 1px solid #17ce85;
+  margin-bottom: 15px;
+}
+
+/* Styling for the username and password labels */
+label {
+  font-weight: bold;
+}
+
+/* Input field styling */
+input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #97e50f;
+  box-sizing: border-box;
+}
+
+/* Styling for the Remember me checkbox */
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+/* Styling for the Cancel button */
+.cancelbtn {
+  background-color: #f44336;
+  color: rgba(251, 248, 246, 0.926);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn:hover {
+  opacity: 0.8;
+}
+
+/* Container with different background color */
+.container.darker {
+  background-color: #b4fffed4;
+}
+
+/* Image styling */
+.container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Right-aligned text and images */
+.container.darker img.right {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Styling for chat bubbles */
+.container p {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.container.darker p {
+  background-color: #ccc;
+}
+
+/* Right-aligned chat bubble */
+.container.darker p {
+  background-color: #ddd;
+}
+
+/* Time stamp styling */
+span.time-right {
+  float: right;
+  color: #aaa;
+}
+
+span.time-left {
+  float: left;
+  color: #999;
+}
+
+/* Chat popup form */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Button styling in the chat form */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .btn:hover {
+  opacity: 1;
+}

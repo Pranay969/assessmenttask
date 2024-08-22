@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assessment.css">
+    <style>
+        /* Additional styling for the chat popup */
+        .chat-popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: rgba(173, 237, 203, 0.868);
+        }
+
+        .form-container .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        .form-container .cancel {
+            background-color: red;
+        }
+
+        .form-container .btn:hover, .open-button:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="/Users/sivapolagani/Downloads/diabeto-needs-to-roll-back-to-the-kitchen-v0-5126fglx07ta1-1.webp" alt="Mankey">
+        <p>Hello. How are you today?</p>
+        <span class="time-right">11:00</span>
+    </div>
+    
+    <div class="container darker">
+        <img src="/Users/sivapolagani/Downloads/diabeto-needs-to-roll-back-to-the-kitchen-v0-5126fglx07ta1-1.webp" alt="Walter" class="right">
+        <p>Hey! I'm fine. Thanks for asking!</p>
+        <span class="time-left">11:01</span>
+    </div>
+    
+    <div class="container">
+        <img src="/Users/sivapolagani/Downloads/diabeto-needs-to-roll-back-to-the-kitchen-v0-5126fglx07ta1-1.webp" alt="Mankey">
+        <p>Sweet! So, what do you wanna do today?</p>
+        <span class="time-right">11:02</span>
+    </div>
+    
+    <div class="container darker">
+        <img src="/Users/sivapolagani/Downloads/diabeto-needs-to-roll-back-to-the-kitchen-v0-5126fglx07ta1-1.webp" alt="Walter" class="right">
+        <p>Nah, I dunno. Play soccer.. or learn more hacking perhaps?</p>
+        <span class="time-left">11:05</span>
+    </div>
+    <a href="file:///Users/sivapolagani/Library/CloudStorage/GoogleDrive-pranay.chalapati%40education.nsw.gov.au/My%20Drive/Coding/assessment%20task/.vscode/assessment4.html">Chat</a>
+   
+
+<script defer>
+    function openForm() {
+        var form = document.getElementById("myForm");
+        form.style.display = "block";
+        form.setAttribute("aria-hidden", "false");
+        document.querySelector('.open-button').setAttribute("aria-expanded", "true");
+    }
+
+    function closeForm() {
+        var form = document.getElementById("myForm");
+        form.style.display = "none";
+        form.setAttribute("aria-hidden", "true");
+        document.querySelector('.open-button').setAttribute("aria-expanded", "false");
+    }
+</script>
+
+    <a href="file:///Users/sivapolagani/Library/CloudStorage/GoogleDrive-pranay.chalapati%40education.nsw.gov.au/My%20Drive/Coding/assessment%20task/.vscode/assessment.html">Sign Out</a>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
